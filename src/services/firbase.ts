@@ -4,13 +4,13 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAO_9EzzVdGTsBZylcl4I9VicSy2Q7ysUo",
-  authDomain: "healthcare-890e8.firebaseapp.com",
-  projectId: "healthcare-890e8",
-  storageBucket: "healthcare-890e8.firebasestorage.app",
-  messagingSenderId: "1030380357367",
-  appId: "1:1030380357367:web:31bb48242037de58bcb5f2",
-  measurementId: "G-L8WP8JN6BY"
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID,
+  measurementId: import.meta.env.VITE_MEASUREMENT_ID,
 };
 
 // Initialize Firebase
