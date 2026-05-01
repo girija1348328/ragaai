@@ -39,7 +39,7 @@ const [password, setPassword] = useState("123456");
         {/* Email */}
         <input
           type="email"
-          placeholder="Email"
+          placeholder="test@gmail.com"
           className="w-full mb-4 p-3 border rounded"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -49,7 +49,7 @@ const [password, setPassword] = useState("123456");
         {/* Password */}
         <input
           type="password"
-          placeholder="Password"
+          placeholder="123456"
           className="w-full mb-4 p-3 border rounded"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
