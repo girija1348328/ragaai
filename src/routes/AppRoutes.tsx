@@ -4,7 +4,7 @@ import Login from "../pages/Login";
 import Dashboard from "../pages/Dashboard";
 import Patients from "../pages/Patients";
 import Analytics from "../pages/Analytics";
-import AppLayout from "../components/layout/Applayout";
+import AppLayout from "../components/layout/AppLayout";
 
 export default function AppRoutes() {
   return (

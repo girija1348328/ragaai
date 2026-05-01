@@ -9,7 +9,7 @@ export default function Login() {
   const dispatch = useDispatch<AppDispatch>();
   const navigate = useNavigate();
 
-  const { loading, error, user } = useSelector(
+  const { loading, error } = useSelector(
     (state: RootState) => state.auth
   );
 
